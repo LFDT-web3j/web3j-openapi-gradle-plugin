@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.12.3 (Upcoming)
+
+### BREAKING CHANGES
+
+* Upgrade to 8.7 plus fixes [#17](https://github.com/hyperledger-web3j/web3j-openapi-gradle-plugin/pull/17)
+
+### Bug Fixes
+
+* NIL
+
+### Features
+
+* NIL
+
 # 4.11.2 (2024-03-28)
 
 ### Bug Fixes
