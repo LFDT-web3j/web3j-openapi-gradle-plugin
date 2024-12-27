@@ -3,7 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 4.12.3 (Upcoming)
+# 4.12.4 (Upcoming)
+
+### BREAKING CHANGES
+
+* NIL
+
+### Bug Fixes
+
+* NIL
+
+### Features
+
+* Release 4.12.3 and bump version to 4.12.4 [#18](https://github.com/web3j/web3j-openapi-gradle-plugin/pull/18)
+
+# 4.12.3 (2024-12-27)
 
 ### BREAKING CHANGES
 
