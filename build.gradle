@@ -11,7 +11,6 @@ plugins {
 }
 
 description = 'Gradle plugin providing tasks to generate Web3j-OpenAPI project from Solidity.'
-sourceCompatibility = 17
 
 ext {
     web3jVersion = version
