@@ -15,7 +15,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Release 4.14.0
+* Release 4.14.0 [#23](https://github.com/LFDT-web3j/web3j-openapi-gradle-plugin/pull/23)
 
 
 # 4.13.0 (2025-03-07)
