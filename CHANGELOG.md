@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* NIL
+* Migrate to java 21 [#22](https://github.com/LFDT-web3j/web3j-openapi-gradle-plugin/pull/22)
 
 ### Bug Fixes
 
