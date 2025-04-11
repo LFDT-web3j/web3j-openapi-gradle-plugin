@@ -48,6 +48,7 @@ repositories {
 dependencies {
     implementation "org.web3j:web3j-gradle-plugin:$web3jVersion"
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
+    implementation "org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion"
     implementation "org.jetbrains.kotlin.multiplatform:org.jetbrains.kotlin.multiplatform.gradle.plugin:$kotlinVersion"
     implementation "gradle.plugin.org.hidetake:gradle-swagger-generator-plugin:$swaggerGenVersion"
     implementation "io.swagger.core.v3:swagger-gradle-plugin:$swaggerVersion"

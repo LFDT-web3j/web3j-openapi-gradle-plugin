@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 4.14.0 (2025-03-07)
+# 4.14.0 (2025-04-11)
 
 ### BREAKING CHANGES
 
@@ -15,7 +15,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Release 4.13.0  [#21](https://github.com/web3j/web3j-openapi-gradle-plugin/pull/21)
+* Release 4.14.0 [#23](https://github.com/LFDT-web3j/web3j-openapi-gradle-plugin/pull/23)
 
 
 # 4.13.0 (2025-03-07)
@@ -31,6 +31,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * Release 4.12.3 and bump version to 4.12.4 [#18](https://github.com/web3j/web3j-openapi-gradle-plugin/pull/18)
+* Release 4.13.0  [#21](https://github.com/web3j/web3j-openapi-gradle-plugin/pull/21)
 
 # 4.12.3 (2024-12-27)
 
