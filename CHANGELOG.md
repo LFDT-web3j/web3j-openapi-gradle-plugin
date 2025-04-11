@@ -3,10 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.14.0 (2025-03-07)
 
 ### BREAKING CHANGES
 
-* NIL
+* Migrate to java 21 [#22](https://github.com/LFDT-web3j/web3j-openapi-gradle-plugin/pull/22)
 
 ### Bug Fixes
 

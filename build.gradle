@@ -26,7 +26,7 @@ apply {
         'spotless',
     ].each { buildScript ->
         download {
-            src "https://raw.githubusercontent.com/web3j/build-tools/master/gradle/$buildScript/build.gradle"
+            src "https://raw.githubusercontent.com/LFDT-web3j/web3j-build-tools/main/gradle/$buildScript/build.gradle"
             dest "$rootDir/gradle/$buildScript/build.gradle"
             overwrite true
             quiet true
@@ -121,16 +121,16 @@ tasks.withType(Test) {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "17"
+    kotlinOptions.jvmTarget = "21"
 }
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "17"
+    kotlinOptions.jvmTarget = "21"
 }
 
 tasks.named("spotlessJava").configure {
-    dependsOn("processResources","compileTestKotlin","pluginUnderTestMetadata","processTestResources")
+    dependsOn("processResources","compileTestKotlin","pluginUnderTestMetadata","processTestResources", "test")
 }
 
 tasks.named("spotlessKotlin").configure {
-    dependsOn("compileTestKotlin", "processTestResources")
+    dependsOn("compileTestKotlin", "processTestResources", "test")
 }
